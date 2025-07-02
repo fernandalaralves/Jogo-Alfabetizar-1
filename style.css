@@ -1,0 +1,63 @@
+body {
+ font-family: 'Nunito', sans-serif;
+  background: #ffe0f0;
+  color: #333;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+}
+
+header {
+  background-color: #ff80ab;
+  padding: 10px;
+  color: white;
+  position: sticky;
+  top: 0;
+}
+
+.home-btn {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  font-size: 20px;
+  background: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+main, section {
+  margin-top: 30px;
+}
+
+button {
+  background-color: #f06292;
+  border: none;
+  padding: 12px 20px;
+  margin: 10px;
+  border-radius: 12px;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #ec407a;
+}
+
+.letra-btn {
+  background-color: #ba68c8;
+  margin: 5px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+#resultado {
+  background-color: #fff3e0;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
